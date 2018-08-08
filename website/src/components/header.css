@@ -1,0 +1,58 @@
+.App-logo {
+  animation: App-logo-spin infinite 4s alternate;
+  height: 8rem;
+}
+
+.header {
+  background-color: rgb(187, 187, 187);
+  padding: 20px;
+  color: rgb(68, 50, 50);
+  font-size: 3rem;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 3rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a:visited {
+  color: #000;
+}
+
+nav .navWide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+nav .navWide a {
+  text-decoration: none;
+  padding: 0 1rem;
+  color: #000;
+}
+
+nav .navWide a:hover {
+  color: #422;
+  padding: .7rem;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+}
