@@ -1,3 +1,12 @@
+language: python
+python:
+  - "3.5"
+cache: pip
+
+install:
+  -- pip install awscli
+
+
 env:
   github_token: $GIT_HUB_PERSONAL_ACCESS_TOKEN
 
@@ -7,18 +16,16 @@ node_js:
 cache:
   directories:
     - node_modules
+
+before_deploy:
+  pip install --user awscli
 deploy:
-- provider: s3
+- provider: script
+  script: ~/.local/bin/aws s3 sync build s3://www.bundlebee.io --region=us-west-2 --delete
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
-  local_dir: build
-  skip_cleanup: true
-  on: &2
-    repo: bundlebee/website
   bucket: www.bundlebee.io
   region: us-west-2
-  on: *2
-script:
-  - zip -r latest *
-  - mkdir -p dpl_cd_upload
-  - mv latest.zip dpl_cd_upload/latest.zip
+  local-dir: build
+  acl: public_read
+  skip_cleanup: true

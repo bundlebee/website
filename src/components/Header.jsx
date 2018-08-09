@@ -13,11 +13,11 @@ const Header = () => {
         <div className="navWide">
           <a href="#home">HOME</a>
           <a href="#demo">DEMO</a>
-          <a href="https://github.com/bundle-bee/bundle-bee">DOCS</a>
-          <a href="https://github.com/bundle-bee/bundle-bee"><img src={GitHub} alt="GitHub Logo" /></a>
+          <a href="https://github.com/bundlebee/bundle-bee/wiki">DOCS</a>
+          <a href="https://github.com/bundlebee/bundle-bee"><img src={GitHub} alt="GitHub Logo" /></a>
           <a href="https://npm.org"><img src={NPM} alt="NPM Logo" /></a>
         </div>
-      </nav>
+      </nav>{"TRAVIS TEST BEFORE LUNCH"}
     </div>
   )
 };
