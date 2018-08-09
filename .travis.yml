@@ -18,3 +18,6 @@ deploy:
   region: us-west-2
   endpoint: http://www.bundlebee.io.s3-website-us-west-2.amazonaws.com
   local-dir: build
+# after_deploy:
+#   - aws configure set preview.cloudfront true
+#   - aws cloudfront create-invalidation --distribution-id $EY7EA7GX6VS99 --paths "/*"
