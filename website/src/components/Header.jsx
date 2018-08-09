@@ -9,10 +9,10 @@ const Header = () => {
     <div className="header">
       <nav>
         <img src={logo} className="App-logo" alt="logo" />
-        <h4 className="App-title">Bundle Bee</h4>
+        <h4 className="App-title">{'BUNDLE BEE'}</h4>
         <div className="navWide">
-          <a href="#">HOME</a>
-          <a href="#">DEMO</a>
+          <a href="#home">HOME</a>
+          <a href="#demo">DEMO</a>
           <a href="https://github.com/bundle-bee/bundle-bee">DOCS</a>
           <a href="https://github.com/bundle-bee/bundle-bee"><img src={GitHub} alt="GitHub Logo" /></a>
           <a href="https://npm.org"><img src={NPM} alt="NPM Logo" /></a>
