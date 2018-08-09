@@ -17,7 +17,9 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
   bucket: www.bundlebee.io
-  region: us-west-2
-  local-dir: build
-  acl: public_read
   skip_cleanup: true
+  acl: public_read
+  region: us-west-2
+  endpoint: http://www.bundlebee.io.s3-website-us-west-2.amazonaws.com
+  detect_encoding: true
+  local-dir: build
