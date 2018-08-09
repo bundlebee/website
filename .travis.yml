@@ -1,11 +1,3 @@
-language: python
-python:
-  - "3.5"
-cache: pip
-
-install:
-  -- pip install awscli
-
 
 env:
   github_token: $GIT_HUB_PERSONAL_ACCESS_TOKEN
