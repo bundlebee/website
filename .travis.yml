@@ -14,7 +14,7 @@ before_deploy:
 deploy:
 - provider: script
   script: ~/.local/bin/aws s3 sync build s3://www.bundlebee.io --region=us-west-2 --delete
-  access_key_id: $AWS_ACCESS_KEY_ID
+  access_key: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
   bucket: www.bundlebee.io
   skip_cleanup: true
