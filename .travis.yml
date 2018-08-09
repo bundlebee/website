@@ -10,8 +10,7 @@ cache:
     - node_modules
 
 deploy:
-- provider: script
-  script: s3 sync build s3://www.bundlebee.io --region=us-west-2 --delete
+- provider: s3
   access_key: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
   bucket: www.bundlebee.io
