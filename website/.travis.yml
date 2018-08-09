@@ -1,25 +1,4 @@
-cache:
-  directories:
-    - node_modules
-deploy:
-  provider: s3
-  access_key_id: "AKIAJZDFPMUN3N5EJECA"
-  secret_access_key: "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"
-  bucket: "www.bundlebee.io"
-  skip_cleanup: true
-  local_dir: build
-  region: "us-west-2"
-  default_text_charset: 'utf-8'
 
-before_deploy: "echo 'ready?'"
-    deploy:
-
-    after_deploy:
-      - ./after_deploy_1.sh
-      - ./after_deploy_2.sh
-
-
-# INFORMATION FROM TUTORIAL
 language: node_js
 node_js:
 - '6'
