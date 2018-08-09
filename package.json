@@ -1,6 +1,6 @@
 {
-  "name": "travis",
-  "version": "0.1.0",
+  "name": "bundle-bee",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.4.2",
