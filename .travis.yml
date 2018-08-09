@@ -1,3 +1,5 @@
+env:
+  github_token: $GIT_HUB_PERSONAL_ACCESS_TOKEN
 
 language: node_js
 node_js:
