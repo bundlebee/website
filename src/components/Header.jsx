@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import GitHub from './git.svg';
 import NPM from './npm.svg';
-import './header.css';
+import '../styles/header.css';
 
 const Header = () => {
     return (

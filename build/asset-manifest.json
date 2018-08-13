@@ -1,9 +1,20 @@
 {
-  "main.css": "static/css/main.01f743d6.css",
-  "main.css.map": "static/css/main.01f743d6.css.map",
-  "main.js": "static/js/main.5987dd79.js",
-  "main.js.map": "static/js/main.5987dd79.js.map",
+  "main.css": "static/css/main.2f7f29cc.css",
+  "main.css.map": "static/css/main.2f7f29cc.css.map",
+  "main.js": "static/js/main.2fde1939.js",
+  "main.js.map": "static/js/main.2fde1939.js.map",
+  "static/media/bundle-bee-step1.png": "static/media/bundle-bee-step1.71889b5f.png",
+  "static/media/bundle-bee-step2.png": "static/media/bundle-bee-step2.dcc33501.png",
+  "static/media/bundle-bee-step3.png": "static/media/bundle-bee-step3.0b0c2932.png",
+  "static/media/bundle-bee-step4.png": "static/media/bundle-bee-step4.f46d1f97.png",
+  "static/media/bundle-bee-step5.png": "static/media/bundle-bee-step5.b24f01d6.png",
   "static/media/git.svg": "static/media/git.1c25e027.svg",
   "static/media/logo.svg": "static/media/logo.5f48e817.svg",
-  "static/media/npm.svg": "static/media/npm.3f0fd7e7.svg"
+  "static/media/npm.svg": "static/media/npm.3f0fd7e7.svg",
+  "static/media/parcel-example-config.png": "static/media/parcel-example-config.0aea0093.png",
+  "static/media/parcel.svg": "static/media/parcel.e7dfb9ee.svg",
+  "static/media/rollup-example-config.png": "static/media/rollup-example-config.9c35ac31.png",
+  "static/media/rollup.svg": "static/media/rollup.44591abb.svg",
+  "static/media/webpack-example-config.png": "static/media/webpack-example-config.6a7bc38d.png",
+  "static/media/webpack.svg": "static/media/webpack.3e5f15ad.svg"
 }
