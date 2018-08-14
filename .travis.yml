@@ -1,0 +1,23 @@
+
+env:
+  github_token: $GIT_HUB_PERSONAL_ACCESS_TOKEN
+
+language: node_js
+node_js:
+- '6'
+cache:
+  directories:
+    - node_modules
+
+deploy:
+- provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: www.bundlebee.io
+  skip_cleanup: true
+  region: us-west-2
+  endpoint: http://www.bundlebee.io.s3-website-us-west-2.amazonaws.com
+  local_dir: build
+# after_deploy:
+#   - aws configure set preview.cloudfront true
+#   - aws cloudfront create-invalidation --distribution-id $EY7EA7GX6VS99 --paths "/*"

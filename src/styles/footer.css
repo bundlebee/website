@@ -1,0 +1,16 @@
+.footer nav {
+  max-height: 5rem;
+  font-size: 1.4rem;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.footer-title {
+  text-align: center;
+  flex-shrink: 2;
+}
+
+.footer span {
+  font-size: 1rem;
+  margin: 0 5rem;
+}
