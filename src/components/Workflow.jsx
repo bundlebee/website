@@ -66,6 +66,22 @@ export default class Workflow extends Component {
               <li>{"Rollup may build faster, but with Parcel your bundled project will be smaller in size"}</li>
               <li>{"Make sure your root directory contains a directory called \"src\" and there is an index.js file within src"}</li>
             </ul>
+            <h1>Additional Resources</h1>
+            <ul>
+              <li>
+                <a href="https://wanago.io/courses/webpack-4-course/">Webpack Course</a>
+              </li>
+              <li>
+                <a href="https://code.lengstorf.com/learn-rollup-js/">Rollup Tutorial</a>
+              </li>
+              <li>
+                <a href="https://x-team.com/blog/rollup-webpack-parcel-comparison/">Bundle Comparison</a>
+              </li>
+              <li>
+                <a href="https://medium.com/@ibrahimbutt/if-youve-ever-configured-webpack-parcel-will-blow-your-mind-b615468cee78">Medium Parcel Article</a>
+              </li>
+
+            </ul>
 
           </div>
         </section>

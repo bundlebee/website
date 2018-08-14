@@ -9,6 +9,9 @@ const Footer = () => {
         <div className="navWide">
           <a href="#about">ABOUT US</a>
           <a href="#contact">CONTACT</a>
+          <a href="#webpack">WEBPACK</a>
+          <a href="#parcel">PARCEL</a>
+          <a href="#rollup">ROLLUP</a>
           <a href="https://github.com/bundlebee/bundle-bee/wiki">DOCS</a>
           <span>&copy; Copyright 2018</span>
 

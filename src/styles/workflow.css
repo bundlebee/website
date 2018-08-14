@@ -53,6 +53,15 @@ pre {
   background-color: #2e2e2e;
 }
 
+#config button:focus {
+  background-color: #2a0e8f;
+}
+
+#config button:hover {
+  background-color: #2a0e8f;
+  font-size: 1.3rem;
+}
+
 .downloads {
   display: inline-block;
   width: 100%;
