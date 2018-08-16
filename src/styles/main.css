@@ -8,12 +8,11 @@
 }
 
 .intro {
-  font-size: 1.2rem;
   line-height: 1.5;
   word-wrap: break-word;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
-  grid-column: 2 / span 4;
+  grid-column: 1 / span 6;
   color: white;
   text-align: center;
 }
@@ -22,9 +21,19 @@
   display: flex;
 }
 
-.cards>div {
-  width: 50%;
-  margin: 3rem;
+.cards .left {
+  margin: 1rem;
+  width: 70%;
+  padding: 2rem;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.cards .right {
+  margin: 1rem;
+  width: 80%;
   padding: 2rem;
   background-color: white;
   color: black;
@@ -33,7 +42,7 @@
 }
 
 .bundle-logos img {
-  margin: 0 1rem;
+  margin: 0 .5rem;
 }
 
 #example-images {
@@ -45,6 +54,6 @@
 }
 
 #example-images img {
-  max-width: 30%;
+  max-width: 50%;
   padding: 1rem;
 }
