@@ -10,7 +10,6 @@ const Footer = () => {
           <a href="#about">ABOUT US</a>
           <a href="#contact">CONTACT</a>
           <a href="https://github.com/bundlebee/bundle-bee/wiki">DOCS</a>
-          <span></span>
           <span>&copy; Copyright 2018</span>
         </div>
       </nav>
