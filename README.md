@@ -84,13 +84,13 @@ And finally, Bundle Bee is still in development, so bear with us as we iron out 
 
 ## Authors
 
-* **Brendan Morrell** (https://github.com/brendanmorrell)
+🐝 **Brendan Morrell** (https://github.com/brendanmorrell)
 
-* **Clariz Mariano** (https://github.com/havengoer)
+🐝 **Clariz Mariano** (https://github.com/havengoer)
 
-* **Sam Goldberg** (https://github.com/sgoldber61)
+🐝 **Sam Goldberg** (https://github.com/sgoldber61)
 
-* **Adam Modras** (https://github.com/js-mode)
+🐝 **Adam Modras** (https://github.com/js-mode)
 
 ## License
 
