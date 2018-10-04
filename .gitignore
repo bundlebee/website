@@ -1,11 +1,17 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+#static 
+/build/static/css
+/build/static/js
+
+
 # dependencies
 /node_modules
 
 # testing
 /coverage
 
+package-lock.json
 
 # misc
 .DS_Store

@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/footer.css';
+import bundlebeelogo from './logo.png'
 
 const Footer = () => {
   return (
     <div className="footer">
       <nav>
-        <h4 className="footer-title">{'BUNDLE BEE'}</h4>
+      <img src={bundlebeelogo} alt="Bundle Bee Logo" />
         <div className="navWide">
           <a href="#about">ABOUT US</a>
           <a href="#contact">CONTACT</a>

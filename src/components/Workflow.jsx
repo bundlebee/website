@@ -100,13 +100,7 @@ export default class Workflow extends Component {
             </ul>
           </div>
         </section>
-        <div className="download">
-          <h3>{"Download Executable"}</h3>
-          <a className="btn btn-lg btn-block" href="https://s3-us-west-2.amazonaws.com/www.bundlebee.io/pgm.zip" download=""><span  ></span>MacOS</a>
-          <p class="fine-print">64-bit macOS 10.10 and later</p>
-          <a className="windows" href=""><span  ></span>Windows10</a>
-          <p class="fine-print">Coming Soon</p>
-        </div>
+       
 
       </div>
     )
