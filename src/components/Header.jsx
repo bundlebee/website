@@ -14,7 +14,7 @@ const Header = () => {
                     <img src={logo} className="App-logo" alt="logo" width="160"/>
                     <div>
                         <img src={bundlebeelogo} alt="Bundle Bee Logo" />
-                        <div><p className="subTitle">Simplify Your Build Process</p></div>
+                        <div><p className="subTitle">   Simplify Your Build Process</p></div>
                     </div>
                 </div>
                 <div className="navWide">

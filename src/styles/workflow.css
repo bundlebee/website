@@ -64,9 +64,8 @@ pre {
 .download {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
-  margin-top: -8rem;
 }
 
 .download a {
@@ -82,14 +81,4 @@ pre {
   font-family: OpenSans, sans-serif;
   line-height: 36px;
   font-weight: 100;
-}
-
-#content1 ul {
-  width: 80%;
-}
-
-.fine-print {
-  font-size: .85rem;
-  padding-right: 1rem;
-  margin: 0 0 1rem 0;
 }
