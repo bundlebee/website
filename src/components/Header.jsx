@@ -14,8 +14,8 @@ const Header = () => {
                 <div className="navWide">
                     <a href="#home">HOME</a>
                     <a href="#demo">DEMO</a>
-                    <a href="https://github.com/bundlebee/bundle-bee/wiki">DOCS</a>
-                    <a href="https://github.com/bundlebee/bundle-bee"><img src={GitHub} alt="GitHub Logo" /></a>
+                    <a href="https://github.com/bundlebee/bundle-bee/wiki" target="_blank">DOCS</a>
+                    <a href="https://github.com/bundlebee/bundle-bee" target="_blank"><img src={GitHub} alt="GitHub Logo" /></a>
                 </div>
             </nav>
         </div>

@@ -47,8 +47,9 @@ nav .navWide {
 
 nav .navWide a {
   text-decoration: none;
-  padding: 0 1rem;
+  padding:  .7rem;
   color: #000;
+  
 }
 
 nav .navWide a:hover {
