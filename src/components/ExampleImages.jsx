@@ -9,7 +9,13 @@ const ExampleImages = () => {
   return (
     <div>
       <div id="example-images">
-        <img src={step1} alt="example images" />
+        
+        <div id="left-col">
+          <img src={step1} alt="example images" />
+        </div>
+        <div>
+        <div className="cards left">{"Current web applications can grow immensely in a very short period of time.  Having the proper bundle tool is immensely useful for not just the developers but for the final product that is pushed to production.  Bundle Bee provides the ability for React developers to test, not just their current bundle configuration, but also compare it to other potential solutions to see which option is the most performant in terms of speed and bundle size.  This not only saves the developers time in setting up their bundle tools, but more importantly enables them to ship the fastest code for their users."}</div>
+        </div>
       </div>
     </div>
   )

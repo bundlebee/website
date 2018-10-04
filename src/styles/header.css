@@ -28,7 +28,7 @@ nav {
   background-color: #ccc;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 nav a:visited {
@@ -40,7 +40,7 @@ nav .navWide {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 5rem;
+  margin: 0 2rem;
   font-size: 1.5rem;
   font-family: 'Oswald', sans-serif;
 }
@@ -49,6 +49,7 @@ nav .navWide a {
   text-decoration: none;
   padding:  .7rem;
   color: #000;
+
   
 }
 
@@ -57,4 +58,13 @@ nav .navWide a:hover {
   padding: .7rem;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
+}
+
+.subTitle {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav > div > div > img {
+  width: 380px;
 }
