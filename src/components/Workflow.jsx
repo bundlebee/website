@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { Component } from 'react'
 import '../styles/workflow.css';
 
@@ -47,19 +48,34 @@ export default class Workflow extends Component {
 
     return (
       <div className="workflow">
+        <section className="home-section">
+          <div id="config">
+            <h2>Example Config Files</h2><p>{`(Click a tool below:)`}</p>
+            <button onClick={this.handleWebpackClick}>WEBPACK</button>
+            <button onClick={this.handleParcelClick}>PARCEL</button>
+            <button onClick={this.handleRollupClick}>ROLLUP</button>
+            {ExampleConfig}
+          </div>
+        </section>
         <section id="content1" className="home-section">
           <div className="container">
             <h3>Installation Instructions</h3>
             <div className="line">
-              {`Install the plugin with npm:`}
+              {`Clone Repo locally:`}
               <pre className="editor editor-colors">
-                <span>{`npm install -g bundle-bee`}</span>
+                <span>{`git clone https://github.com/bundlebee/bundle-bee.git bundle-bee`}</span>
               </pre>
-              <span className="source shell">
-              </span>
+              <pre>
+                <span>{`cd bundle-bee`}</span>
+              </pre>
+              <pre>
+                <span>{`npm i || yarn`}</span>
+              </pre>
+              <pre>
+                <span>{`npm run electron || yarn electron`}</span>
+              </pre>
+
             </div>
-            <h1>Basic Usage</h1>
-            <p>{"Bundle Bee utlizes the outputted JSON stats file (relative to the root directory)"}</p>
             <h1>Items To Watch For</h1>
             <ul>
               <li>{"When bundling with Parcel, you must define any variables that have been deconstructed from a node module"}</li>
@@ -82,24 +98,16 @@ export default class Workflow extends Component {
               </li>
 
             </ul>
+          </div>
+        </section>
+        <div className="download">
+          <h3>{"Download Executable"}</h3>
+          <a className="btn btn-lg btn-block" href="https://s3-us-west-2.amazonaws.com/www.bundlebee.io/pgm.zip" download=""><span  ></span>MacOS</a>
+          <p class="fine-print">64-bit macOS 10.10 and later</p>
+          <a className="windows" href=""><span  ></span>Windows10</a>
+          <p class="fine-print">Coming Soon</p>
+        </div>
 
-          </div>
-        </section>
-        <section id="content2" className="home-section">
-          <div id="config">
-            <h2>Example Config Files</h2>
-            <button onClick={this.handleWebpackClick}>WEBPACK</button>
-            <button onClick={this.handleParcelClick}>PARCEL</button>
-            <button onClick={this.handleRollupClick}>ROLLUP</button>
-            {ExampleConfig}
-          </div>
-          <div className="downloads">
-            <h3>{"Download Executable"}</h3>
-            <button>MacOS</button>
-            <button>Windows 10</button>
-            <button>Linux</button>
-          </div>
-        </section>
       </div>
     )
   };
